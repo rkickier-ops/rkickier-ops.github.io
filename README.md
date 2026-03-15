@@ -21,7 +21,7 @@ Used Cisco CLI to reset and configure Cisco Catalyst 3750g switch for new admini
 Created a Python program to efficiently read Apache logs, leveraging advanced regular expressions for precise pattern matching, allowing extracted data to be stored conveniently for necessary calculations. 
 Find it here --> <https://github.com/rkickier-ops/Access-Log-Parser>
 ### User Management 
-Developed a python program that allows user creation, password modification, and log viewing. Utilizing two text files, the log is appened and the user_data is overwritten with updated users and psuedo-encrypted passwords.
+Developed a python program that allows user creation, password modification, and log viewing. Utilizing two text files, the log file gets appended while the program is running and the user_data is overwritten with updated users and psuedo-encrypted passwords during the program quitting process.
 Find it here --> <https://github.com/rkickier-ops/User-Management-Program> 
 
 
