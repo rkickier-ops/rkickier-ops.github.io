@@ -1,7 +1,7 @@
 # About Me
 Heya! I am Ryan Farragher, a current student at Northern Essex Community College pursuing my degree in Information Technology. One of my hobbies is puzzle solving, that used to mean my Rubik's cube or a random puzzle box I got as a gift, but now it refers to problems. As I learned new systems and programs I encountered new problems, new puzzles, that I could solve. Through these "puzzles" I developed my knowledge base in Python, Windows Server management, Ubuntu Server, Cisco IOS, and Network management. Excited to find new "puzzles" to solve in a professional environment!
 # Education and Skills
-## *Northern Essex Community College, Haverhill MA — Associate of Science in Information Technology - May 2026*
+### *Northern Essex Community College, Haverhill MA — Associate of Science in Information Technology - May 2026*
 - Dean’s List Fall 2024, Fall 2025
 - Systems: Windows Server 2016, Windows 10/11, Kali Linux, Active Directory, DCHP, Ubuntu Server, Cisco Switches/IOS
 - Software: Microsoft 365, Adobe Suite, Python, VeraCrypt, Autopsy
