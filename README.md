@@ -13,7 +13,7 @@ Built a virtualized Server running Windows Server 2016 and used active directory
 ### Linux Servers
 Created virtual machines to run Ubuntu Server and CentOS and documented the setup process to streamline the process for others. Created users and updated all repositories to finish intializing the server. Added new networking repositories from the command line to allow networking and configured netwroking on each server to allow SCP file transfer between them.
 Setup Documentation --> <https://studentnecc-my.sharepoint.com/:w:/g/personal/00335162_student_necc_edu/IQA76_UDjGSWTbrXZR19LU7FAbIk_2wOjhxL_D39c7amnfI?e=4PZJFX> 
-### Cisco Switching
+### Cisco Networking
 Used Cisco CLI to reset and configure Cisco Catalyst 3750g switch for new administration and users. Created and configured multiple VLANs to organize ports, configured port settings and security rules
 , and enabled SSH for remote access.
 ## Coding:
