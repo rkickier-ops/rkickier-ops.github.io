@@ -3,7 +3,7 @@ Heya! I am Ryan Farragher, a current student at Northern Essex Community College
 # Education and Skills
 ### *Northern Essex Community College, Haverhill MA — Associate of Science in Information Technology - May 2026*
 - Dean’s List Fall 2024, Fall 2025
-- Systems: Windows Server 2016, Windows 10/11, Kali Linux, Active Directory, DCHP, Ubuntu Server, Cisco Switches/IOS
+- Systems: Windows Server 2016, Windows 10/11, Kali Linux, Active Directory, DHCP, Ubuntu Server, Cisco Switches/IOS
 - Software: Microsoft 365, Adobe Suite, Python, VeraCrypt, Autopsy
 
 # Projects
