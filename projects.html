@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Farragher - Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">Ryan Farragher</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Projects</h1>
+        
+        <div class="tab-container">
+            <button class="tab-button active" onclick="openTab(event, 'Networking')">Networking & IT</button>
+            <button class="tab-button" onclick="openTab(event, 'Coding')">Coding</button>
+        </div>
+
+        <div id="Networking" class="tab-content" style="display: block;">
+            
+            <h3>RALcompany Windows Server</h3>
+            <p>Built a virtualized Server running Windows Server 2016 and used active directory to create and manage the RAL company domain as well as RAL company users. Implemented GPOs to manage user permissions within the server. Created DHCP scope and firewall rules to allow easy device connection to the LAN while maintaining security.</p>
+            
+            
+            <h3>Linux Servers</h3>
+            <p>Created virtual machines to run Ubuntu Server and CentOS and documented the setup process to streamline the process for others. Created users and updated all repositories to finish intializing the server. Added new networking repositories from the command line to allow networking and configured netwroking on each server to allow SCP file transfer between them.</p>
+            <p>Setup Documentation &rarr; <a href="https://studentnecc-my.sharepoint.com/:w:/g/personal/00335162_student_necc_edu/IQA76_UDjGSWTbrXZR19LU7FAbIk_2wOjhxL_D39c7amnfI?e=4PZJFX" target="_blank">View on SharePoint</a></p>
+
+            <h3>Cisco Networking</h3>
+            <p>Used Cisco CLI to reset and configure Cisco Catalyst 3750g switch for new administration and users. Created and configured multiple VLANs to organize ports, configured port settings and security rules, and enabled SSH for remote access. Introduced a router to the LAN, to enable WAN connections with another group in the class. Configured trunks, ip addresses, subnets, and routing rules to enable the connection. </p>
+            
+            
+        </div>
+
+        <div id="Coding" class="tab-content">
+            
+            <h3>Apache Log Parser</h3>
+            <p>Created a Python program to efficiently read Apache logs, leveraging advanced regular expressions for precise pattern matching, allowing extracted data to be stored conveniently for necessary calculations.</p>
+            <p>Find it here &rarr; <a href="https://github.com/rkickier-ops/Access-Log-Parser" target="_blank">GitHub Repository</a></p>
+            <img src="https://via.placeholder.com/800x300/001F33/68C7EC?text=Add+Apache+Log+Screenshot+Here" alt="Apache Log Parser Screenshot" class="project-screenshot">
+
+            <h3>User Management</h3>
+            <p>Developed a python program that allows user creation, password modification, and log viewing. Utilizing two text files, the log file gets appended while the program is running and the user_data is overwritten with updated users and psuedo-encrypted passwords during the program quitting process.</p>
+            <p>Find it here &rarr; <a href="https://github.com/rkickier-ops/User-Management-Program" target="_blank">GitHub Repository</a></p>
+            <img src="https://via.placeholder.com/800x300/001F33/68C7EC?text=Add+User+Management+Screenshot+Here" alt="User Management Screenshot" class="project-screenshot">
+
+        </div>
+    </div> 
+
+    <script>
+        function openTab(evt, tabName) {
+            // 1. Find all elements with the class "tab-content" and hide them completely
+            var tabcontent = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // 2. Find all elements with the class "tab-button" and remove the "active" styling
+            var tablinks = document.getElementsByClassName("tab-button");
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // 3. Show the specific tab we clicked on, and highlight the button we just clicked!
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
